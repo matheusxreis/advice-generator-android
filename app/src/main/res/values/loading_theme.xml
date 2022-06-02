@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="loading" parent="@style/Theme.AdviceGenerator">
+        <item name="colorAccent">@color/neon_green</item>
+    </style>
+</resources>

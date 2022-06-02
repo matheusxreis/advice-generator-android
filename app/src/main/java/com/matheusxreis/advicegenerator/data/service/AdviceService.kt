@@ -7,6 +7,6 @@ import retrofit2.http.GET
 interface AdviceService {
 
     @GET("/advice")
-    public fun getAdvice():SlipAdvice
+    public suspend fun getAdvice():SlipAdvice
 
 }

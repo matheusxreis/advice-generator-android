@@ -4,5 +4,5 @@ import com.google.gson.annotations.SerializedName
 
 data class SlipAdvice(
     @SerializedName("slip")
-    private val slip: Advice
+    public val slip: Advice
 )

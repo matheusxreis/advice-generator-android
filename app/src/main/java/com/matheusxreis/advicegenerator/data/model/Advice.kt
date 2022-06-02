@@ -5,8 +5,8 @@ import com.google.gson.annotations.SerializedName
 data class Advice(
 
     @SerializedName("id")
-    private val id: Number,
+    public val id: Number,
 
     @SerializedName("advice")
-    private val advice: String
+    public val advice: String
 )

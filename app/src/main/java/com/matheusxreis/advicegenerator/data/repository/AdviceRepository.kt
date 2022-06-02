@@ -8,7 +8,8 @@ import com.matheusxreis.advicegenerator.data.utils.NetworkUtils
 class AdviceRepository{
 
 
-    fun getAdvice():SlipAdvice {
-        return NetworkUtils().AdviceService().getAdvice()
+    suspend fun getAdvice():Advice {
+
+        return NetworkUtils().AdviceService().getAdvice().slip
     }
 }
