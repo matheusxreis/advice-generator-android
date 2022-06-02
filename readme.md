@@ -6,8 +6,8 @@ This challange helped me to train Android Architecture and how consume a API in 
 This is a advice app, with a simple and only activity that show you some advices, each time you click on button.
 
 ### Technologies: 
-    - Kotlin: to code;
-    - Retrofit: to consume the API;
+   - Kotlin: to code;
+   - Retrofit: to consume the API;
 
 That's all folks! :metal:
     
