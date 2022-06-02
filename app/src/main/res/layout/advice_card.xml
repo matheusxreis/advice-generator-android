@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="24dp"
+    android:paddingBottom="34dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/dark_grayish_blue">
@@ -10,7 +12,6 @@
         android:id="@+id/label_advice_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="34dp"
         android:fontFamily="@font/manrope_extrabold"
         android:letterSpacing="0.2"
         android:shadowColor="#212930"
@@ -55,14 +56,6 @@
         android:id="@+id/image_divider"
         />
 
-   <com.google.android.material.button.MaterialButton
-       android:layout_width="70dp"
-       android:layout_height="100dp"
-       app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintTop_toBottomOf="@id/image_divider"
-       app:shapeAppearanceOverlay="@style/Widget.MaterialComponents.FloatingActionButton"
-       style="@style/Widget.MaterialComponents.Button.Icon"
-       />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
