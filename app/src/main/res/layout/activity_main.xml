@@ -7,7 +7,7 @@
     android:background="@color/dark_blue"
     android:paddingHorizontal="20dp"
     android:paddingVertical="60dp"
-    tools:context=".MainActivity">
+    tools:context=".ui.views.MainActivity">
 
         <include
             android:id="@+id/card"
@@ -17,14 +17,14 @@
         layout="@layout/advice_card" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="255dp"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:translationY="-30dp"
         android:src="@drawable/ic_icon_dice"
-        app:fabCustomSize="60dp"
+        app:fabCustomSize="65dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/card"
         android:backgroundTint="@color/neon_green"
         />
 
